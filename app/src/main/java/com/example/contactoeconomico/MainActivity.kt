@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
 
         var btnView1 = findViewById<Button>(R.id.btn1)
         var btnView2 = findViewById<Button>(R.id.btn2)
-        var btnView3 = findViewById<Button>(R.id.btn3)
-        var btnView4 = findViewById<Button>(R.id.btn4)
+        //var btnView3 = findViewById<Button>(R.id.btn3)
+        //var btnView4 = findViewById<Button>(R.id.btn4)
 
 
         btnView1.setOnClickListener {
