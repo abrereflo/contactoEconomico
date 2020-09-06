@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/td1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <View
+        android:id="@+id/vEconomia"
+        android:layout_width="350dp"
+        android:layout_height="380dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <TextView
+        android:id="@+id/txt1"
+        style="@android:style/Widget.Material.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cinzel_decorative"
+        android:text="@string/economia"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@id/vEconomia"
+        app:layout_constraintStart_toStartOf="@id/vEconomia"
+        app:layout_constraintTop_toTopOf="@+id/vEconomia"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/color_gray"
+        android:text="@string/turismo"
+        app:layout_constraintEnd_toStartOf="@+id/btn2"
+        app:layout_constraintStart_toStartOf="@id/vEconomia"
+        app:layout_constraintTop_toBottomOf="@+id/txt1" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/color_blue"
+        android:text="@string/negocios"
+        app:layout_constraintEnd_toEndOf="@+id/vEconomia"
+        app:layout_constraintStart_toEndOf="@+id/btn1"
+        app:layout_constraintTop_toBottomOf="@+id/txt1" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/color_rojo"
+        android:text="@string/agricultrua"
+        app:layout_constraintBottom_toBottomOf="@+id/vEconomia"
+        app:layout_constraintEnd_toEndOf="@id/vEconomia"
+        app:layout_constraintStart_toEndOf="@+id/btn4"
+        app:layout_constraintTop_toBottomOf="@+id/btn2" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/color_gray"
+        android:text="@string/energiaMinas"
+        app:layout_constraintBottom_toBottomOf="@+id/vEconomia"
+        app:layout_constraintEnd_toStartOf="@+id/btn3"
+        app:layout_constraintStart_toStartOf="@id/vEconomia"
+        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+    <View
+        android:id="@+id/vEduacion"
+        android:layout_width="350dp"
+        android:layout_height="380dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt2"
+        style="@android:style/Widget.Material.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cinzel_decorative"
+        android:text="@string/educacion"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@id/vEduacion"
+        app:layout_constraintStart_toStartOf="@id/vEduacion"
+        app:layout_constraintTop_toTopOf="@+id/vEduacion"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn11"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/color_gray"
+        android:text="@string/estudioInicial"
+        app:layout_constraintEnd_toStartOf="@+id/btn12"
+        app:layout_constraintStart_toStartOf="@id/vEduacion"
+        app:layout_constraintTop_toBottomOf="@+id/txt2" />
+
+    <Button
+        android:id="@+id/btn12"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/color_blue"
+        android:text="@string/estudioSecundario"
+        app:layout_constraintEnd_toEndOf="@+id/vEduacion"
+        app:layout_constraintStart_toEndOf="@+id/btn11"
+        app:layout_constraintTop_toBottomOf="@+id/txt2" />
+
+    <Button
+        android:id="@+id/btn13"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/color_rojo"
+        android:text="@string/estudioTecnicos"
+        app:layout_constraintBottom_toBottomOf="@+id/vEduacion"
+        app:layout_constraintEnd_toEndOf="@id/vEduacion"
+        app:layout_constraintStart_toEndOf="@+id/btn14"
+        app:layout_constraintTop_toBottomOf="@+id/btn12" />
+
+    <Button
+        android:id="@+id/btn14"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/color_blue"
+        android:text="@string/universidad"
+        app:layout_constraintBottom_toBottomOf="@+id/vEduacion"
+        app:layout_constraintEnd_toStartOf="@+id/btn13"
+        app:layout_constraintStart_toStartOf="@+id/vEduacion"
+        app:layout_constraintTop_toBottomOf="@+id/btn11" />
+
+    <View
+        android:id="@+id/vCienciaTecnologia"
+        android:layout_width="350dp"
+        android:layout_height="380dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt3"
+        style="@android:style/Widget.Material.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cinzel_decorative"
+        android:text="@string/cienciaTecnologia"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@id/vCienciaTecnologia"
+        app:layout_constraintStart_toStartOf="@id/vCienciaTecnologia"
+        app:layout_constraintTop_toTopOf="@+id/vCienciaTecnologia"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn21"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/color_gray"
+        android:text="@string/computadoraTabCel"
+        app:layout_constraintEnd_toStartOf="@+id/btn22"
+        app:layout_constraintStart_toStartOf="@+id/vCienciaTecnologia"
+        app:layout_constraintTop_toBottomOf="@+id/txt3" />
+
+    <Button
+        android:id="@+id/btn22"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/color_blue"
+        android:text="@string/inteligenciaArtificial"
+        app:layout_constraintEnd_toEndOf="@+id/vCienciaTecnologia"
+        app:layout_constraintStart_toEndOf="@+id/btn21"
+        app:layout_constraintTop_toBottomOf="@+id/txt3" />
+
+    <Button
+        android:id="@+id/btn23"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/color_rojo"
+        android:text="@string/agricola"
+        app:layout_constraintBottom_toBottomOf="@+id/vCienciaTecnologia"
+        app:layout_constraintEnd_toEndOf="@+id/vCienciaTecnologia"
+        app:layout_constraintStart_toEndOf="@+id/btn24"
+        app:layout_constraintTop_toBottomOf="@+id/btn22" />
+
+    <Button
+        android:id="@+id/btn24"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/color_blue"
+        android:text="@string/hogar"
+        app:layout_constraintBottom_toBottomOf="@+id/vCienciaTecnologia"
+        app:layout_constraintEnd_toStartOf="@+id/btn23"
+        app:layout_constraintStart_toStartOf="@+id/vCienciaTecnologia"
+        app:layout_constraintTop_toBottomOf="@+id/btn21"
+        app:layout_constraintVertical_bias="0.442" />
+
+    <View
+        android:id="@+id/vSaludBienestar"
+        android:layout_width="350dp"
+        android:layout_height="380dp"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <TextView
+        android:id="@+id/txt4"
+        style="@android:style/Widget.Material.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cinzel_decorative"
+        android:text="@string/saludBienestar"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@id/vSaludBienestar"
+        app:layout_constraintStart_toStartOf="@id/vSaludBienestar"
+        app:layout_constraintTop_toTopOf="@+id/vSaludBienestar"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn31"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/color_gray"
+        android:text="@string/servicios"
+        app:layout_constraintEnd_toStartOf="@+id/btn32"
+        app:layout_constraintStart_toStartOf="@+id/vSaludBienestar"
+        app:layout_constraintTop_toBottomOf="@+id/txt4" />
+
+    <Button
+        android:id="@+id/btn32"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/color_blue"
+        android:text="@string/equipos"
+        app:layout_constraintEnd_toEndOf="@+id/vSaludBienestar"
+        app:layout_constraintStart_toEndOf="@+id/btn31"
+        app:layout_constraintTop_toBottomOf="@+id/txt4" />
+
+    <Button
+        android:id="@+id/btn33"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/color_rojo"
+        android:text="@string/medicinas"
+        app:layout_constraintBottom_toBottomOf="@+id/vSaludBienestar"
+        app:layout_constraintEnd_toEndOf="@+id/vSaludBienestar"
+        app:layout_constraintStart_toEndOf="@+id/btn34"
+        app:layout_constraintTop_toBottomOf="@+id/btn32" />
+
+    <Button
+        android:id="@+id/btn34"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/color_blue"
+        android:text="@string/comeSano"
+        app:layout_constraintBottom_toBottomOf="@+id/vSaludBienestar"
+        app:layout_constraintEnd_toStartOf="@+id/btn33"
+        app:layout_constraintStart_toStartOf="@+id/vSaludBienestar"
+        app:layout_constraintTop_toBottomOf="@+id/btn31" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_arrow_expand_less"
+        tools:ignore="VectorDrawableCompat"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/ic_arrow_expand_more"
+        tools:ignore="VectorDrawableCompat"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_forward_black"
+        tools:ignore="VectorDrawableCompat"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back_black"
+        tools:ignore="VectorDrawableCompat"/>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

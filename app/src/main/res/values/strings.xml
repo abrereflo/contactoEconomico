@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">contactoEconomico</string>
+
+
+    <string name="economia">ECONOMIA</string>
+    <string name="educacion">EDUCACIÓN</string>
+    <string name="cienciaTecnologia">CIENCIA Y TECNOLOGIA</string>
+    <string name="saludBienestar">SALUD Y BIENESTAR</string>
+
+    <string name="turismo">TURISMO</string>
+    <string name="negocios">NEGOCIOS</string>
+    <string name="agricultrua">AGRICULTURA</string>
+    <string name="energiaMinas">ENERGIA Y MINAS</string>
+    <string name="banca">BANCA</string>
+    <string name="arqquitectura">ARQUITECTURA</string>
+    <string name="agroIndustria">AGRO INDUSTRIA</string>
+    <string name="industria">INDUSTRIA</string>
+    <string name="construccion">CONSTRUCCIÓN</string>
+    <string name="td1">TODO</string>
+
+    <string name="estudioInicial">ESTUDIO INICIAL</string>
+    <string name="estudioSecundario">ESTUDIO SECUNDARIO</string>
+    <string name="estudioTecnicos">ESTUDIO TECNICOS</string>
+    <string name="universidad">UNIVERSIDAD</string>
+    <string name="becas">BECAS</string>
+    <string name="cursos">CURSOS</string>
+    <string name="tecnologiaEducativa">TECNOLOGIA EDUCATIVA</string>
+    <string name="software">SOFTWARE</string>
+    <string name="inteligenciaArtificial">INTELIGENCIA ARTIFICIAL</string>
+
+    <string name="computadoraTabCel">COMPUTADORAS TEBLETS CELULARES</string>
+    <string name="inteligenciaAr">INTELIGENCIA ARTIFICIAL</string>
+    <string name="agricola">AGRICOLA</string>
+    <string name="hogar">HOGAR</string>
+    <string name="movilidades">MOVILIDADES</string>
+    <string name="industrial">INDUSTRIAL</string>
+    <string name="medioAmbiente">MEDIO AMBIENTE</string>
+    <string name="fotogrfiaCineTele">FOTOGRAFIA CINE TELEVISION</string>
+    <string name="equiposMedios">EQUIPOS MEDICOS</string>
+
+    <string name="servicios">SERVICIOS</string>
+    <string name="equipos">EQUIPOS</string>
+    <string name="medicinas">MEDICINAS</string>
+    <string name="comeSano">COME SANO</string>
+    <string name="clinicas">CLINICAS</string>
+    <string name="hospitales">HOSPITALES</string>
+    <string name="medicinaNatural">MEDICINA NATURAL</string>
+    <string name="seguros">SEGUROS</string>
+    <string name="relax">RELAX</string>
+
+
+</resources>
